@@ -133,9 +133,6 @@ export default function OneRepMaxCalculator() {
                   <button type="button" onClick={() => navigator.clipboard?.writeText(`${fmt(oneRepMax)} kg`)} className="flex-1 rounded-md border border-gray-700 px-3 py-2 text-sm font-medium hover:bg-gray-800">
                     Copy
                   </button>
-                  <button type="button" onClick={() => alert('To share: copy the number or use your device\'s share features.')} className="rounded-md border border-indigo-600 bg-indigo-600 px-3 py-2 text-sm font-medium text-white shadow-sm">
-                    Share
-                  </button>
                 </div>
               </div>
             </div>
